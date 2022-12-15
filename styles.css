@@ -1,0 +1,103 @@
+
+body {
+    background: #070e12;
+    margin: 30px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: 'Karla', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.avatar {
+    width: 130px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 2px solid #200ff0;
+    
+}
+
+img.avatar {
+    filter: grayscale(10%);
+    
+}
+
+.card {
+    width: 400px;
+    margin: 70px auto;
+    padding: 20px 20px 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background: radial-gradient(ellipse at top, #001845, transparent),
+            radial-gradient(ellipse at bottom, #240046, transparent);
+    border-radius: 30px;
+    border: 1px solid #2a00e6;
+    border-bottom: 3px solid #2000e0;
+    box-shadow: 0px 0px 50px 0px #202fff;
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+.logo {
+    display: flex;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    color: #00ff99;
+    padding: 5px;
+    border-radius: 20px 20px 0px 0px;
+}
+//.logo-text{
+//}
+.avatar-div{
+    padding-top: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    
+}
+.avatar-text-div{
+    font-family: 'Fira Code',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 15px;
+    //padding-right:15px;
+    width: 60%;
+    color: #00e68a;
+    height: 100px;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+} 
+
+a {
+   color: inherit;
+   text-decoration: none; 
+}
+a:hover {
+    text-decoration: underline;
+}
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
